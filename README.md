@@ -1,4 +1,4 @@
-# Rpozitorij moje osobne web stranice 
+# Repozitorij moje osobne web stranice 
 
 Ovdje će se nalaziti HTML/CSS/Javascript 
 
