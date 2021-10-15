@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.intro-left {
+  background: #585858;
+  position: fixed;
+  left: 0;
+  width: 33.3333%;
+  height: 100%;
+  color: whitesmoke;
+  background-color: cover;
+}
+
+@media (max-width: 750px) {
+  .intro-left {
+    margin-bottom: 0;
+    position: relative;
+    height: 40vh;
+    width: 100%;
+  }
+}
+
+.profile {
+  width: 15rem;
+  height: 22rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.container-fluid {
+  background-color: #585858;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.quote {
+  float: middle;
+}
+
+section {
+  margin: 5rem;
+  font-size: 1.2 rem;
+}
+
+about h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #585858;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
