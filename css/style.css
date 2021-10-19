@@ -69,16 +69,8 @@ li a.contact:hover {
   color: white;
 }
 
-@media (max-width: 767px) {
-  .intro-left {
-    margin-bottom: 0;
-    position: relative;
-    height: 40vh;
-    width: 100%;
-  }
-}
-
 .intro-left {
+  background-image: url(/img/background3.jpg);
   position: fixed;
   left: 0;
   width: 33.3333%;
@@ -87,15 +79,23 @@ li a.contact:hover {
   background-color: cover;
 }
 
+@media (max-width: 768px) {
+  .intro-left {
+    height: 60vh;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+  .main-nav {
+    position: relative;
+  }
+}
+
 .profile {
   width: 15rem;
   height: 21rem;
   margin: 2rem;
   border-radius: 1rem;
-}
-
-.container-fluid {
-  background-image: url(/img/background3.jpg);
 }
 
 .full-height {
