@@ -16,6 +16,7 @@ body {
 .main-nav {
   height: 90px;
   position: fixed;
+  background-image: url(/img/background.jpg);
 }
 
 .logo {
@@ -26,16 +27,12 @@ body {
   margin-left: 15px;
 }
 
-a.logo {
-  color: whitesmoke;
-  transition: all 0.3s linear 0s;
-  text-transform: uppercase;
-}
-
 .navlinks {
   list-style: none;
   float: right;
   line-height: 60px;
+  margin: 0;
+  padding: 0;
 }
 
 .navlinks li {
@@ -62,6 +59,12 @@ li a.contact {
   padding: 9px 20px;
   border-radius: 50px;
   transition: all 0.3s ease 0s;
+}
+
+a.logo {
+  color: whitesmoke;
+  transition: all 0.3s linear 0s;
+  text-transform: uppercase;
 }
 
 li a.contact:hover {
