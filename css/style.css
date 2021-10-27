@@ -106,7 +106,7 @@ li a.contact:hover {
 }
 
 section {
-  margin: 5rem;
+  margin: 4rem;
   font-size: 1.2 rem;
 }
 
@@ -119,4 +119,8 @@ about h3 {
 .about ul {
   list-style: none;
   padding: 0;
+}
+
+.container {
+  padding: 5px;
 }
