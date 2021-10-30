@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
 
+
 </head>
     <body>
 
@@ -61,21 +62,21 @@
 
     
 
-                    <section class="contact-me">
-                        <h2 class="h3">Contact me:</h2>
-
+                    <section class="contact-form">
+                        <form class="contact-from" id="contact-form" method="post" action="send" enctype="multipart/form-data">
+                            <h3>Contact me</h3>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="mb-3">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="name...">
+                                            <label for="name" class="form-label">Name:</label>
+                                            <input type="text" class="form-control" id="name" placeholder="name..." required>
                                           </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="mb-3">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="text" class="form-control" id="email" placeholder="name@example.com">
+                                            <label for="email" class="form-label">Email:</label>
+                                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                                           </div>
                                     </div>
                                 </div>
@@ -83,17 +84,18 @@
 
                             <div class="col-md-12">
                                 <div class="mb-3">
-                                    <label for="text" class="form-label">Textarea</label>
-                                    <textarea class="form-control" id="text" rows="3"></textarea>
+                                    <label for="text" class="form-label">Message:</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="message"></textarea>
                                   </div>
                             </div>
 
                             <div class="col-md-12">
                                 <div class="col-md-3">
-                                    <button type="button" class="btn btn-outline-secondary">Send</button>                              
+                                    <button type="submit" class="btn btn-outline-secondary" value="submit" required>Submit</button>                         
                                  </div>
                             </div>
                         </div>
+                     </form>
                     </section>
                     
                     <div class="sm">
@@ -109,10 +111,7 @@
             </div>
         </div>
 
-
-
-
-
+           <script src="/js/index.js"></script> 
 
     </body>
 </html>
